@@ -1,4 +1,4 @@
-python3 -m pip install https://github.com/gcreneti/cot-4500-as1/blob/src/requirements.txt
+py -m pip install https://github.com/gcreneti/cot-4500-as1/blob/src/requirements.txt
 #Function to find number of terms until convergence via bisection method
 def bisection_method(left: float, right: float, function: str):
     x = left
