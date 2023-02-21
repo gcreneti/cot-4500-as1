@@ -1,4 +1,4 @@
-pip install -r requirements.txt
+pip install -r https://github.com/gcreneti/cot-4500-as1/blob/src/requirements.txt
 #Function to find number of terms until convergence via bisection method
 def bisection_method(left: float, right: float, function: str):
     x = left
