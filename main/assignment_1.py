@@ -1,3 +1,4 @@
+pip install - r requirements.txt
 #Function to find number of terms until convergence via bisection method
 def bisection_method(left: float, right: float, function: str):
     x = left
