@@ -84,28 +84,27 @@ bis_method = bisection_method(-4, 7, "x**3 + 4*x**2 - 10")
 # Find number of terms via Newton-Raphson
 n_r_method = newton_raphson(7, 10**-4, "(x**3) + (4*(x**2) - 10)")
 
-print("Number:")
+
 print(float(num))
 print("\n")
-print("Chopped 3 digit:")
+
 print(chop)
 print("\n")
-print("Rounded 3 digit:")
+
 print(round)
 print("\n")
-print("Absolute error of number vs rounded number:")
+
 print(abs_error)
 print("\n")
-print("Relative error of number vs rounded number:")
+
 print(rel_error)
 print("\n")
 
-print("Minimum terms to compute f(1) with error under 10^-4:")
 
 print(n)
 print("\n")
-print("Number of terms until convergence via bisection method:")
+
 print(bis_method)
 print("\n")
-print("Number of terms until convergence via Newton Raphson method:")
+
 print(n_r_method)
